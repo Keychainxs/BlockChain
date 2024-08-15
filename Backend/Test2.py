@@ -123,12 +123,12 @@ class BlockChain(object):
 
 
 # test run 
-blockchain = BlockChain() 
+#blockchain = BlockChain() 
 
-blockchain.new_transaction(sender ='K',recipient="K", amount= 300)
+#blockchain.new_transaction(sender ='K',recipient="K", amount= 300)
 
-mined = blockchain.mine()
-print(mined)
-is_valid = blockchain.validate_chain(blockchain.chain)
-print(f"Is This Block Chain Valid: {is_valid}")
+#mined = blockchain.mine()
+#print(mined)
+#is_valid = blockchain.validate_chain(blockchain.chain)
+#print(f"Is This Block Chain Valid: {is_valid}")
 
