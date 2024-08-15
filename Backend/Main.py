@@ -2,7 +2,7 @@ import hashlib
 import json
 from time import time
 
-import requests
+
 
 class BlockChain(object):
 
