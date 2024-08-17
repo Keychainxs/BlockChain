@@ -9,7 +9,7 @@ const MineBlock = () => {
     const [error, setError] = useState('')
     
     const handleMineBlock = () => {
-    axios.get('http://127.0.0.1:5000/mineblock')
+    axios.get('https://blockchain-a382.onrender.com/mineblock')
             .then(response => {
                 setMinedBlock(response.data)
                 setError('')

@@ -5,7 +5,7 @@ function BlockChain() {
     const [chain, setChain] = useState([]);
 
     useEffect(() => {
-        axios.get('http://127.0.0.1:5000/getblock')         
+        axios.get('https://blockchain-a382.onrender.com/getblock')         
         .then(response => {
             setChain(response.data.chain); 
         })

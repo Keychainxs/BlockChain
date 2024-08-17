@@ -6,7 +6,7 @@ import axios from 'axios';
 
 
 const TransactionURL= (transaction) => {
-   const baseURL = 'http://127.0.0.1:5000/newtransaction';
+   const baseURL = 'https://blockchain-a382.onrender.com/newtransaction';
    
     axios.post(baseURL , transaction)
     .then(response => {
