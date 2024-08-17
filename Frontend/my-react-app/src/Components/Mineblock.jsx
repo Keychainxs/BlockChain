@@ -15,7 +15,7 @@ const MineBlock = () => {
                 setError('')
             })
             .catch(error => console.error("erro fetching block", error))
-            setError("erro mining new block" );
+            setError("error mining new block" );
             setMinedBlock(null)
     }
 

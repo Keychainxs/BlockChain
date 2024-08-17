@@ -3,7 +3,7 @@ from Test2 import BlockChain
 from flask_cors import CORS
 app = Flask(__name__)
 blockchain = BlockChain()
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "https://block-chain-gules.vercel.app"}})
 
 
 @app.route("/")
